@@ -1,0 +1,122 @@
+.carousel img{
+    height:500px;
+  
+}
+.carousel-control-prev{
+    width: 50px;
+}
+.carousel-caption{
+    
+    width: 50%;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-left:88px;
+   left: 0;
+   top: 0;
+   padding-top: 50px;
+   
+}
+h1{
+    font-size: 50px;
+    
+}
+.carousel{
+    display: flex;
+    justify-content:space-around;
+}
+.navbar{
+    position:relative;
+}
+form{
+    display: flex;
+    border: 0;
+    
+    flex-direction:column;
+    padding:10px  100px;
+
+    
+}
+.modal-content{
+    height: 500px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input,select{
+    border: 0;
+    height: 20px;
+}
+textarea{
+    border: 0;
+}
+form button{
+    color: white;
+    background-color: rgb(46, 4, 112);
+    width: 150px;
+    padding: 10px 0;
+    align-items: center;
+    border: 0;
+}
+.carousel-caption button{
+width: 200px;
+height: 60px;
+border-radius: 50px;
+border:0;
+margin-top: 30px;
+background-color: rgb(46, 4, 112);
+color:white;
+}
+.data {
+   
+    height: 100%;
+    margin-bottom: 80px;
+}
+.row{
+    height: 500px;
+    
+
+}
+.data img {
+    height: 100%;
+    padding-left: 10px;
+}
+.container{
+    margin-top: 100px;
+}
+.data button{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border:0;
+    margin-top: 30px;
+    background-color: rgb(46, 4, 112);
+    color:white;
+}
+.p1{
+    margin-bottom: 80px;
+}
+.img1{
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    
+}
+
+
+
+.data2{
+    height:400px;
+    background-color: white;
+}
+.color{
+    background-color: rgb(240, 238, 236);
+}
+.data3{
+    padding: 30px;
+}
+.img1 img{
+    vertical-align: middle;
+    width: 100%;
+ 
+}
