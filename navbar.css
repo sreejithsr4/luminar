@@ -1,54 +1,62 @@
-.carousel img{
-    height:500px;
-  
+body{
+    margin: 0;
 }
-.carousel-control-prev{
+.carousel img {
+    height: 500px;
+}
+
+.carousel-control-prev {
     width: 50px;
 }
-.carousel-caption{
-    
+
+.carousel-caption {
     width: 50%;
     text-align: left;
     margin-bottom: 100px;
-    margin-left:88px;
-   left: 0;
-   top: 0;
-   padding-top: 50px;
-   
+    margin-left: 88px;
+    left: 0;
+    top: 0;
+    padding-top: 50px;
 }
-h1{
+
+h1 {
     font-size: 50px;
-    
 }
-.carousel{
+
+.carousel {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.navbar{
-    position:relative;
+
+.navbar {
+    position: relative;
 }
-form{
+
+form {
     display: flex;
     border: 0;
-    
-    flex-direction:column;
-    padding:10px  100px;
 
-    
+    flex-direction: column;
+    padding: 10px 100px;
 }
-.modal-content{
+
+.modal-content {
     height: 500px;
     width: 600px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-input,select{
+
+input,
+select {
     border: 0;
     height: 20px;
 }
-textarea{
+
+textarea {
     border: 0;
 }
-form button{
+
+form button {
     color: white;
     background-color: rgb(46, 4, 112);
     width: 150px;
@@ -56,67 +64,140 @@ form button{
     align-items: center;
     border: 0;
 }
-.carousel-caption button{
-width: 200px;
-height: 60px;
-border-radius: 50px;
-border:0;
-margin-top: 30px;
-background-color: rgb(46, 4, 112);
-color:white;
-}
-.data {
-   
-    height: 100%;
-    margin-bottom: 80px;
-}
-.row{
-    height: 500px;
-    
 
-}
-.data img {
-    height: 100%;
-    padding-left: 10px;
-}
-.container{
-    margin-top: 100px;
-}
-.data button{
+.carousel-caption button {
     width: 200px;
     height: 60px;
     border-radius: 50px;
-    border:0;
+    border: 0;
     margin-top: 30px;
     background-color: rgb(46, 4, 112);
-    color:white;
-}
-.p1{
-    margin-bottom: 80px;
-}
-.img1{
-    height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 50%;
-    
+    color: white;
 }
 
+.data button {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border:rgb(46, 4, 112) solid 1px ;
+    background-color: rgb(46, 4, 112);
+    color: white;
+}
 
+#img img {
+    width: 100%;
+}
 
-.data2{
-    height:400px;
+.color {
+    background-color: rgb(240, 238, 236);
+    margin-bottom: 50px;
+}
+
+#container1 {
+
     background-color: white;
 }
-.color{
-    background-color: rgb(240, 238, 236);
+
+.img1 img {
+    width: 100%
+}
+
+h2 {
+    color: rgb(46, 4, 112);
+    text-align: center;
+
+}
+.h21{
+    margin:20px;
+    padding-top: 50px;
+}
+
+span {
+    color: rgb(136, 75, 233);
 }
 .data3{
-    padding: 30px;
+padding:10px;
 }
-.img1 img{
-    vertical-align: middle;
-    width: 100%;
- 
+.data3 h3{
+    color:rgb(46, 4, 112) ;
+    font-size: 26px;
+}
+.data button:hover{
+    background-color: white;
+    color:rgb(46, 4, 112) ;
+    border: rgb(46, 4, 112) solid 1px;
+}
+button:hover{
+    background-color:rgb(165, 122, 235) ;
+}
+#flex{
+    justify-content:space-between;
+}
+.card{
+    border:0 
+    ;
+}
+.card{
+    padding: 0;
+    
+}
+.card h5{
+    color:rgb(46, 4, 112) ;
+}
+.btn{
+background-color:rgb(46, 4, 112) ;
+border: 0;
+border-radius: 0;
+font-weight: bold;
+}
+.header-top{
+    background-color: rgb(46, 4, 112);
+    color: white;
+    padding-top: 2px;
+}
+.card:hover{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
+}
+#container1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
+}
+.last{
+    border: solid 1px rgb(46, 4, 112);
+    background-color: white;
+    color:rgb(46, 4, 112);
+    text-align: center;
+    border-radius: 50px;
+    height: 60px;
+    width: 150px;
+}
+.last:hover{
+    color:white;
+    background-color:rgb(46, 4, 112) ;
+
+}
+.button2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.carousel-control-next{
+    width: 50px;
+}
+@media(max-width:800px){
+    .carousel-caption h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .carousel-caption button{
+        height: 40px;
+        width:70;
+        margin: 0;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+
 }

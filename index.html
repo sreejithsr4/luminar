@@ -11,11 +11,23 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./navbar.css">
 
 </head>
 
 <body>
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 col-sm-12 pe-5">Have any question? <i class="fa-solid fa-phone" style="color: #fcfcfd;"></i>+91 8086 651 651</div>
+        <div class="col-lg-5 col-md-6 col-sm-12 ps-5"> <i class="fa-solid fa-phone" style="color: #fcfcfd;"></i>+91 8086 651 651 <a href="#"
+            style="text-decoration: none; color: white;"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>contact@luminartechnolab.com</a></div>
+      </div>
+    </div>
+  </div>
   <nav class="navbar navbar-expand-lg bg-white mb-1 mt-1">
     <div class="container-fluid">
       <img src="./images/logo.png" alt="" class="ms-5">
@@ -118,9 +130,9 @@
     </div>
   </div>
 
-  <div class="container ">
+  <div class="container" id="container">
     <div class="row">
-      <div class="col-lg-7 data">
+      <div class="col-lg-7 col-md-12 data">
         <h2>Luminar Technolab Pvt Ltd</h2>
         <p>CIN: U80220KL2021PTC071578</p>
         <p class="p1">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing
@@ -135,32 +147,67 @@
           courses.</p>
         <button>LEARN MORE</button>
       </div>
-      <div class="col-lg-5 data">
+      <div class="col-lg-5 col-md-12" id="img">
         <img src="./images/qq.jpg" alt="">
       </div>
     </div>
 
   </div>
   <div class="color">
-    <h2>OUR <span>COURSES</span></h2>
-    <div class="container">
-      <div class="row data2">
-        <div class="col-lg-6 img1">
+    <div class="h21"><h2>OUR <span>COURSES</span></h2></div>
+
+
+    <div class="container" id="container1">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 img1">
           <img src="./images/data-science-1588143159.jpg" alt="">
         </div>
-        <div class="courses col-lg-6 data3">
+        <div class="courses col-lg-6 col-md-12 data3">
           <h3>Data Science - ML - AI - Big Data with Cloud & Tableau</h3>
           <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning,
             Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
-            <p> Next Batch : Jan 03rd 2022 (09:30 am - 11:30 am)</p>
-            <p>Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day </p>
-            <p> Course Fees: <a>VIEW MORE</a></p>
-  
+          <p> <strong>Next Batch : Jan 03rd 2022 (09:30 am - 11:30 am)</strong></p>
+          <p><strong>Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day</strong> </p>
+          <p> <strong>Course Fees: <a href="#">VIEW MORE</a></strong></p>
+
         </div>
-  
+
+
+
       </div>
-  
     </div>
+    <div class="container w-100 mt-5">
+      <div class="row " id="flex">
+        <div class="card col-lg-4 col-md-12" style="width: 23rem;">
+          <img src="./images/python-1588143191.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Django - Angular- Full Stack Web Development Expert</h5>
+            <p class="card-text">Core Python, Basics of Programming, Unix Commands, Advanced Python, Django Framework,
+              REST API, Git, Angul...</p>
+            <a href="#" class="btn btn-primary">VIEW MORE</a>
+          </div>
+        </div>
+        <div class="card col-lg-4 col-md-12" style="width: 23rem;">
+          <img src="./images/st-1588580359.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Software Testing Specialist</h5>
+            <p class="card-text">Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web driver,
+              Selenium Advanced Web...</p>
+            <a href="#" class="btn btn-primary">VIEW MORE</a>
+          </div>
+        </div>
+        <div class="card col-lg-4 col-md-12" style="width: 23rem;">
+          <img src="./images/ms-1623825586.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mearn Stack Web Development Expert - Angular & React</h5>
+            <p class="card-text">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS, Angular,
+              React.js and Node....</p>
+            <a href="#" class="btn btn-primary">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="button2"> <button class="last">View all Courses</button></div>
   </div>
 </body>
 
